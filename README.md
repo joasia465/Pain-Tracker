@@ -2,6 +2,18 @@
 
 Aplikacja desktopowa do monitorowania i lokalizowania bólu, stworzona w JavaFX. 
 
+### 🛠 Kluczowe rozwiązania techniczne
+- **Autorski system detekcji obszarów (Bitmasking):**
+Zastosowanie autorskiego algorytmu masek kolorów do precyzyjnego rozpoznawania kliknięć na nieregularnych kształtach mapy ciała.
+- **Trwałość danych (Persistence):**
+System zapisu i odczytu historii zdarzeń w formacie CSV, zapewniający trwałość danych bez zewnętrznych zależności.
+- **Modularny interfejs JavaFX:**
+Architektura aplikacji oparta na wielu oknach (Stage), co pozwala na logiczne odseparowanie procesu wprowadzania danych od przeglądania historii (zgodnie z zasadą Single Responsibility).
+- **Stabilność i Kompatybilność (JavaFX 21 LTS):**
+Wykorzystanie stabilnej wersji bibliotek JavaFX 21 LTS w celu wyeliminowania błędów kompatybilności występujących w nowszych wersjach oraz zapewnienia wsparcia dla dołączonych bibliotek natywnych.
+- **Portable Architecture:**
+Aplikacja samowystarczalna – zawiera wszystkie niezbędne biblioteki (JAR i DLL), co gwarantuje poprawne uruchomienie na dowolnym systemie Windows.
+
 ### ✨ Funkcjonalności
 - **Interaktywna mapa ciała:** Wybieranie konkretnych obszarów (głowa, tułów, kończyny) dzięki technologii masek bitowych.
 - **Dziennik bólu:** Zapisywanie daty, lokalizacji, typu bólu oraz intensywności.
@@ -10,10 +22,11 @@ Aplikacja desktopowa do monitorowania i lokalizowania bólu, stworzona w JavaFX.
 
 ### 🚀 Jak uruchomić?
 1. Sklonuj repozytorium.
-2. W IntelliJ dodaj pliki `.jar` z folderu `/lib` do bibliotek projektu.
-3. Dodaj następujące **VM Options** w konfiguracji uruchamiania:
+2. Zalecane środowisko: Java 21 lub nowsza (projekt korzysta z bibliotek JavaFX 21 LTS dla maksymalnej stabilności).
+3. W IntelliJ dodaj pliki `.jar` z folderu `/lib` do bibliotek projektu.
+4. Dodaj następujące **VM Options** w konfiguracji uruchamiania:
    `--module-path lib --add-modules javafx.controls,javafx.fxml,javafx.graphics -Dprism.order=sw`
-4. Uruchom klasę **`Launcher`**.
+5. Uruchom klasę **`Launcher`**.
 
 *Uwaga: Aplikacja została zoptymalizowana pod kątem stabilności (JavaFX 21 LTS).*
 
@@ -35,7 +48,7 @@ Po kliknięciu "Dodaj ból" otwiera się okno z interaktywną mapą sylwetki.
 
 ![Mapa ciała](screenshots/2_body_map.png)
 
-- Użytkownik klika myszką bezpośrednio na część ciała, która go boli (rozróżniana są głowa, tułów, ręce prawa i lewa, nogi prawa i lewa).
+- Użytkownik klika myszką bezpośrednio na część ciała, która go boli (rozróżniane są głowa, tułów, ręce prawa i lewa, nogi prawa i lewa).
 - Program, dzięki zastosowaniu **masek bitowych**, natychmiast rozpoznaje kliknięty obszar (np. "Prawa noga" lub "Głowa") i wyświetla tę informację.
 
 ---
