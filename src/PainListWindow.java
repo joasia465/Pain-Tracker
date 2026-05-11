@@ -83,7 +83,8 @@ public class PainListWindow
 
         try (FileWriter writer = new FileWriter("pain_list.txt", true))
         {
-            writer.write(String.valueOf(entry));
+            String cleanLine = String.join(", ", entry);
+            writer.write(cleanLine);
             writer.write(System.lineSeparator());
         }
         catch (Exception ex)
