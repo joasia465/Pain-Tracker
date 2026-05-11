@@ -2,7 +2,7 @@
 
 Aplikacja desktopowa do monitorowania i lokalizowania bólu, stworzona w JavaFX. 
 
-### 🛠 Kluczowe rozwiązania techniczne
+## 🛠 Kluczowe rozwiązania techniczne
 - **Autorski system detekcji obszarów (Bitmasking):**
 Zastosowanie autorskiego algorytmu masek kolorów do precyzyjnego rozpoznawania kliknięć na nieregularnych kształtach mapy ciała.
 - **Trwałość danych (Persistence):**
@@ -14,13 +14,13 @@ Wykorzystanie stabilnej wersji bibliotek JavaFX 21 LTS w celu wyeliminowania bł
 - **Portable Architecture:**
 Aplikacja samowystarczalna – zawiera wszystkie niezbędne biblioteki (JAR i DLL), co gwarantuje poprawne uruchomienie na dowolnym systemie Windows.
 
-### ✨ Funkcjonalności
+## ✨ Funkcjonalności
 - **Interaktywna mapa ciała:** Wybieranie konkretnych obszarów (głowa, tułów, kończyny) dzięki technologii masek bitowych.
 - **Dziennik bólu:** Zapisywanie daty, lokalizacji, typu bólu oraz intensywności.
 - **Baza danych:** Trwały zapis danych w formacie tekstowym (CSV-like).
 - **Przenośność:** Dołączone biblioteki natywne pozwalają na uruchomienie aplikacji bez instalacji JavaFX w systemie.
 
-### 🚀 Jak uruchomić?
+## 🚀 Jak uruchomić?
 1. Sklonuj repozytorium.
 2. Zalecane środowisko: Java 21 lub nowsza (projekt korzysta z bibliotek JavaFX 21 LTS dla maksymalnej stabilności).
 3. W IntelliJ dodaj pliki `.jar` z folderu `/lib` do bibliotek projektu.
@@ -30,7 +30,7 @@ Aplikacja samowystarczalna – zawiera wszystkie niezbędne biblioteki (JAR i DL
 
 *Uwaga: Aplikacja została zoptymalizowana pod kątem stabilności (JavaFX 21 LTS).*
 
-### 📝 Symulacja korzystania (krok po kroku)
+## 📝 Symulacja korzystania (krok po kroku)
 
 Jeśli nie możesz uruchomić aplikacji lokalnie, oto jak wygląda standardowa interakcja użytkownika:
 
