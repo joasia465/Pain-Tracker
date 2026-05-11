@@ -1,0 +1,26 @@
+2025-03-06 18:56:03, Głowa, Pulsujący, 3, czoło
+2025-03-07 12:45:40, Prawa noga, Piekący, 8, udo góra
+2025-03-12 15:55:04, Tułów, Kłujący, 9, brzuch
+2025-03-17 08:02:12, Lewa ręka, Tępy, 7, łokieć
+2025-03-17 16:13:32, Prawa ręka, Pulsujący, 4, przedramie
+2025-03-18 15:38:01, Lewa noga, Piekący, 10, kolano
+2025-03-19 11:27:16, Tułów, Kłujący, 4, brzuch
+2025-03-20 09:15:37, Głowa, Pulsujący, 8, intensywny ból na lewej skroni oraz nad prawą brwią
+2025-03-20 14:00:12, Głowa, Pulsujący, 3, tył głowy
+2025-03-25 23:43:36, Tułów, Inny, 7, brzuch, ściśnięte jelita
+2025-03-27 14:03:50, Głowa, Pulsujący, 4, skronie
+2025-03-29 09:44:00, Prawa noga, Piekący, 5, kolano
+2025-03-29 15:22:10, Prawa noga, Piekący, 8, kolano
+2025-03-30 18:30:27, Lewa ręka, Tępy, 7, łokieć
+2025-04-02 11:06:42, Tułów, Kłujący, 3, przepona
+2025-04-05 20:47:27, Prawa noga, Tępy, 7, kostka
+2025-04-06 19:17:16, Lewa ręka, Tępy, 4, -
+2025-04-08 10:25:28, Lewa noga, Pulsujący, 6, -
+2025-04-10 13:07:25, Głowa, Piekący, 10, czoło
+2025-04-10 13:30:25, Tułów, Inny, 2, brzuch
+2025-04-10 15:46:03, Tułów, Piekący, 6, -
+2025-04-14 23:17:37, Lewa noga, Tępy, 5, -
+2025-04-16 23:04:53, Tułów, Tępy, 8, -
+2025-04-16 23:10:46, Prawa noga, Pulsujący, 6, -
+2025-04-21 21:12:51, Lewa noga, Pulsujący, 6, kostka
+2025-05-06 17:37:19, Prawa ręka, Piekący, 5, łokieć
